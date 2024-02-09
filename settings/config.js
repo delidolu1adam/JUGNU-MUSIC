@@ -73,7 +73,7 @@ module.exports = {
   links: {
     inviteURL:
       process.env.inviteURL ||
-      `https://discord.com/api/oauth2/authorize?client_id=BOTID&permissions=8&scope=bot%20applications.commands`,
+      `https://discord.com/api/oauth2/authorize?client_id=BOTID&permissions=8&scope=bot+applications.commands`,
     DiscordServer: process.env.DiscordServer || `https://discord.gg/FuKfAREn9f`,
     VoteURL: process.env.VoteURL || `https://discord.gg/FuKfAREn9f`,
     Website: `https://jugnu.netlify.app/`,
